@@ -1,0 +1,98 @@
+body{
+    background:url(http://hddesktopwallpapers.in/wp-content/uploads/2015/11/pink-rose-wallpaper-nice-1080x608.jpg);
+
+  text-align:center;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size: cover;
+  background-size:cover;
+}
+h1{
+  color:#FF0066;
+  font:italic bold 2em "Comic Sans MS", cursive, Times, serif;
+}
+
+#calculator{
+  width:250px;
+  height:480px;
+  margin:auto;
+  border:20px groove #FF3399
+;
+  border-radius:50px;
+  padding:9px ;
+  background:#FF99FF
+;
+  color:#FF0066;
+  font:italic bold 15px/30px "Comic Sans MS", cursive, Times, serif;
+ text-align:left;
+  float:center;
+  box-shadow:inset 0 0 3px 6px #CCC;
+
+}
+
+#screen{
+  width:100%px;
+  height:40px;
+  margin:30px 20px 20px 20px ;
+  padding-left:10px;
+  color:#FF0066;
+  background-color:#FFC9FC ;
+  float:;
+  ovweflow:hidden;
+
+  border:2px solid #FF99CC;
+  border-radius:10px;
+  text-algin:right;
+  font:italic bold 1em "Comic Sans MS", cursive, Times, serif;
+  box-shadow:0 0 10px 1px ;
+}
+
+#keys{
+  width:50px;
+  height:45px;
+  margin:0 0 10px 5px;
+  padding:auto;
+  background-color:#FF3399;
+  color:white;
+  font:18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border:2px outset #FF66CC;
+  border-radius:17px;
+  outline:none;
+  line-height:20px;
+
+}
+#keys:hover{
+  background:#ffd700;
+  cursor:pointer;
+  color:#FF66CC;
+  border:#ffd700
+}
+
+#equal{
+  width:110px;
+  height:45px;
+  margin:0 0 10px 5px ;
+  padding:auto;
+  background-color:#FFD700;
+  color:#FF3399;
+  font:18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border:2px outset #FF0;
+  border-radius:17px;
+  outline:none;
+  line-height:20px;
+
+}
+#equal:hover{
+  background:#ff3399;
+  cursor:pointer;
+  color:#ffd700;
+  border:#ffd700
+}
+
+h3{
+  text-align:center;
+  color:#FF0066;
+  font-size:20px;
+
+
+}

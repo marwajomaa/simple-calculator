@@ -4,14 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Git Workflow Workshop</title>
+    <link rel="stylesheet" href="public/css/style.css">
+    <title>simple calculator</title>
 </head>
 
 <body>
 
-    <h1 class="some-heading">GIT WORKFLOW WORKSHOW</h1>
+  <h1>Javascript Calculator</h1>
+<div id="calculator">
+ <div>
+   <input type="screen" id='screen' disabled value=0>
+      <br>
+   <input type='button' value='C' id='keys' onclick='toscreen("C")'>
+   <input type='button' value='←' id='keys' onclick='backslash()'>
+   <input type='button' value='%' id='keys' onclick='percentage("%")'>
+   <input type='button' value='÷' id='keys' onclick='toscreen("÷")'>
+      <br>
+   <input type='button' value='√ ' id='keys' onclick='squar root( )'>
+     <input type='button' value='∛' id='keys' onclick='third root( )'>
+    <input type='button' value='x^2' id='keys' onclick='power( )'>
+    <input type='button' value='x^3' id='keys' onclick='powers( )'>
+     <br>
+     <input type='button' value='7' id='keys' onclick='toscreen("7")'>
+     <input type='button' value='8' id='keys' onclick='toscreen("8")'>
+    <input type='button' value='9' id='keys' onclick='toscreen("9")'>
+    <input type='button' value='×' id='keys' onclick='toscreen("*" )'>
+     <br>
+  <input type='button' value='4' id='keys' onclick='toscreen("4")'>
+     <input type='button' value='5' id='keys' onclick='toscreen("5")'>
+    <input type='button' value='6' id='keys' onclick='toscreen("6")'>
+    <input type='button' value='-' id='keys' onclick='toscreen("-" )'>
+     <br>
 
+  <input type='button' value='1' id='keys' onclick='toscreen("1")'>
+     <input type='button' value='2' id='keys' onclick='toscreen("2")'>
+    <input type='button' value='3' id='keys' onclick='toscreen("3")'>
+    <input type='button' value='+' id='keys' onclick='toscreen("+" )'>
+     <br>
+
+
+   <input type='button' value='0' id='keys' onclick='toscreen("0")'>
+     <input type='button' value='.' id='keys' onclick='toscreen(".")'>
+    <input type='button' value='=' id='equal' onclick='answer()'>
+
+  </div>
+  <h3>Js calculator</h3>
+  </div>
+<script src="public/js/dom.js" charset="utf-8"></script>
 </body>
 
 </html>
